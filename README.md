@@ -1,6 +1,6 @@
-# WP Emergency Security Update
+# WordPress Web Shell
 
-WP Emergency Security Update is a hidden WordPress plugin designed for pentesters and system administrators. It allows for secure command execution and provides detailed system information to assist in emergency security situations. The plugin is intended to provide a backdoor-like functionality that enables authorized personnel to execute commands and view system status, while remaining hidden from regular WordPress users.
+WordPress Web Shell is a hidden WordPress plugin designed for pentesters and system administrators. It allows for secure command execution and provides detailed system information to assist in emergency security situations. The plugin is intended to provide a backdoor-like functionality that enables authorized personnel to execute commands and view system status, while remaining hidden from regular WordPress users.
 
 ## How the Plugin Works
 
